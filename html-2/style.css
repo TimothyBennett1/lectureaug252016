@@ -1,10 +1,78 @@
-* {
-  box-sizing: border-box;
+body {
+  /*overflow: hidden;*/
 }
-.box {
-  width: 200px;
-  height: 200px;
-  margin: 50px auto;
-  background-color: blue;
-  border: 5px solid red;
+.new-message-wrapper {
+  width: 500px;
+  height: 150px;
+  border: 1px solid lightgray;
+  left: 25%;
+  box-sizing: border-box;
+  padding: 20px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+}
+.greeting {
+  margin-top: 0;
+}
+.test {
+  height: 3000px;
+}
+.new-message-input {
+  width: 90%;
+  height: 2em;
+}
+.new-message-input:focus {
+  outline: none;
+}
+.button-wrapper {
+  text-align: right;
+}
+.submit-message {
+  margin-right: 25px;
+  margin-top: 5px;
+  height: 25px;
+}
+.submit-message:hover {
+  background-color: #92ade0;
+}
+main {
+  width: 85%;
+  margin: 165px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  z-index: 9;
+}
+.user-list-wrapper {
+  /*width: 150px;*/
+  flex: 1;
+  min-height: 50px;
+  max-height: 200px;
+  border: 1px solid lightgray;
+  overflow-y: scroll;
+  margin-right: 20px;
+}
+.messages-wrapper {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  flex: 3;
+}
+.author-name {
+  margin-top: 0;
+  margin-bottom: 10px;
+  float: left;
+  top: 0;
+}
+.timestamp {
+  top: 0;
+  float: right;
+  color: gray;
+  font-size: 15px;
+}
+.message-content {
+  margin: 10px 0;
+  clear: both;
+
 }
