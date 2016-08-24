@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fafafa;
+}
+nav {
+  height: 58px;
+  width: 100%;
+  background-color: white;
+}
+.nav-title {
+  display: inline-block;
+}
+.nav-link {
+  margin-left: 20px;
+}
+.nav-anchor {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.nav-anchor:hover {
+  color: gray;
+}
+.header-image {
+  color: white;
+  width: 100%;
+  height: 270px;
+  background-image: url(https://goo.gl/OdjI42);
+  background-repeat: no-repeat;
+  text-align: center;
+  overflow: hidden;
+}
+.header-text {
+  margin-top: 100px;
+}
+.content-wrapper {
+  width: 95%;
+  margin: 40px auto;
+  border: 1px gray;
+
+}
+.posts-wrapper {
+  width: 75%;
+  float: left;
+}
+.posts {
+  min-height: 200px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid gainsboro;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.post-grey-text {
+  color: gainsboro;
+}
+.archive {
+  float: right;
+  margin-right: 15px;
+  width: 23%;
+}
+.archive-links-main {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.archive-links {
+  list-style: none;
+  padding-left: 0;
+  color: #1bb37a;
+}
+.number-of-posts {
+  color: black;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid gainsboro;
+}
+p, a
