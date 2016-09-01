@@ -12,16 +12,16 @@
 // inner();
 
 
-// for (var i = 0; i < 5; i++) {
-//   var currentI = closure(i);
-//   setTimeout(currentI, i * 1000)
-// }
-//
-// function closure(savedReference) {
-//   return function() {
-//     console.log(savedReference)
-//   }
-// }
+for (var i = 0; i < 5; i++) {
+  var currentI = closure(i);
+  setTimeout(currentI, i * 1000)
+}
+
+function closure(savedReference) {
+  return function() {
+    console.log(savedReference)
+  }
+}
 
 // function createGreeter(name, mood) {
 //   var greeting = "Hello " + name + " you look " + mood + " today.";
