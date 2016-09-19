@@ -8,14 +8,4 @@
         </p>
     </article>
 </section>
-<main>
-  <section class="row section" ng-repeat="survivor in survivors">
-    <article class="twelve columns">
-        <img class="four columns" src="{{survivor.img}}" alt="" />
-      <article class="eight columns">
-        <h5>{{survivor.name}}</h5>
-        <p>{{survivor.story}}</p>
-      </article>
-    </article>
-  </section>
-</main>
+<bc-directive ng-repeat="data in getData" data="data" img="img" name="name" story="story"></bc-directive>
