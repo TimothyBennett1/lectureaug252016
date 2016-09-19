@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="bcApp">
+    <head>
+        <meta charset="utf-8">
+        <title>BC Survivors</title>
+        <!--Stylesheets-->
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/skeleton.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <!--Body Section-->
+    <body class="container" ng-contoller="mainCtrl">
+        <!--Header Section  -->
+        <header class="row">
+            <img class="three columns" src="./images/BCLogo.png" alt=""/>
+            <!--Navigation Section -->
+            <nav class="nine columns">
+                <a class="nav" ui-sref="home">Home</a>
+                <a class="nav" ui-sref="stories">Stories</a>
+                <a class="nav" ui-sref="info">Info</a>
+            </nav>
+        </header>
+        <!--ui-view-->
+        <ui-view></ui-view>
+        <!--Footer Area-->
+        <footer>
+            <a class="four columns" ui-sref="home">Home</a>
+            <a class="four columns" ui-sref="stories">Stories</a>
+            <a class="four columns" ui-sref="info">Info</a>
+        </footer>
+
+        <!--Script Sources-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+        <script src="./js/scripts.js" charset="utf-8"></script>
+        <script src="./js/BC-app.js" charset="utf-8"></script>
+        <script src="./js/mainCtrl.js" charset="utf-8"></script>
+        <script src="./js/BC-controller.js" charset="utf-8"></script>
+        <script src="./js/BC-service.js" charset="utf-8"></script>
+        <script src="js/infoCtrl.js" charset="utf-8"></script>
+    </body>
+</html>

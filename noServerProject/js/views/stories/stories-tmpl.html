@@ -1,0 +1,21 @@
+<section class="row">
+    <img class="four columns floating" src="./images/BCA.png" alt=""/>
+    <article class="eight columns">
+        <h4>Breast Cancer Awareness Month</h4>
+        <p>
+            October is Breast Cancer Awareness Month, which is an annual campaign to increase awareness of the disease. While most people are aware of breast cancer, many forget to take the steps to have a plan to detect the disease in its early stages and
+            encourage others to do the same. We have made a lot of progress but still have a long way to go and need your help!
+        </p>
+    </article>
+</section>
+<main>
+  <section class="row section" ng-repeat="survivor in survivors">
+    <article class="twelve columns">
+        <img class="four columns" src="{{survivor.img}}" alt="" />
+      <article class="eight columns">
+        <h5>{{survivor.name}}</h5>
+        <p>{{survivor.story}}</p>
+      </article>
+    </article>
+  </section>
+</main>
