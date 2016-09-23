@@ -155,3 +155,7 @@ footer a {
   padding-left: 120px;
   padding-bottom: 20px
 }
+
+.image.fix {
+  margin-top: 20px;
+}
